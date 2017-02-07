@@ -20,6 +20,7 @@ def alphabet_position(letter):
             index = ord(c)
         return index
 
+
 def rotate_character(char, rot):
     c = char
     c = alphabet_position(c)
